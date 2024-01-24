@@ -1,0 +1,24 @@
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
+
+.warning-msg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background-color: red;
+  font-weight: bolder;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .warning-msg {
+    display: none;
+  }
+}
